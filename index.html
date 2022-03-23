@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1">
+    <!------------------------------------------------ Link ------------------------------------------------>
+    <!------------------------------------------------ Swiper Css ------------------------------------------------>
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!------------------------------------------------ CSS  ------------------------------------------------>
+    <link rel="stylesheet" href="css/style.css">
+    <!------------------------------------------------ Unicons  ------------------------------------------------>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    
+    <title>Portfolio</title>
+</head>
+<body>
+    <!---------------------------------- Header ---------------------------------->
+
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="header_icon">
+                <img class="header_icon_log" src="img/logo_sitio_web_victoria.png" alt="logo">
+                    <a href="#home" class="nav_logo">Victoria</a>
+            </div>
+            <!------------------------ Nav ------------------------>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list grid">
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link active-link">
+                            <i class="uil uil-estate nav__icon"></i>Inicio
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#about" class="nav__link">
+							<i class="uil uil-user nav__icon"></i>Sobre mí
+						</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+							<i class="uil uil-file nav__icon"></i> Habilidades
+						</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#portfolio" class="nav__link">
+							<i class="uil uil-scenery nav__icon"></i>Portfolio
+						</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#contact" class="nav__link">
+							<i class="uil uil-message nav__icon"></i>Contacto
+						</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#login" class="nav__link">
+							<i class="uil uil-sign-in-alt nav__icon"></i>Login
+						</a>
+                    </li>
+                </ul>
+                <i class="uil uil-times-circle nav__close" id="nav-close"></i>
+            </div>
+
+            <div class="nav__btns">
+               <i class="uil uil-moon change-theme"  id="theme-button"></i>
+               <div class="nav__toggle" id="nav-toggle">
+                   <i class="uil uil-apps"></i>
+               </div> 
+            </div>
+        </nav>
+    </header>
+    <!---------------------------------- Main ---------------------------------->
+    <main class="main">
+        <!------------------------ Home ------------------------>
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div class="home__content grid">
+                    <!----------------- Social ------------------>
+                    <div class="home__social">
+                        <a href="https://1bestlinks.net/pWZZL" target="_blank" class="home__social-icon">
+                            <i class="uil uil-linkedin"></i>
+                        </a>
+                        <a href="https://github.com/M-VictoriaCM" target="_blank"  class="home__social-icon">
+                            <i class="uil uil-github"></i>
+                        </a>
+                        <a href="" target="_blank" class="home__social-icon">
+                            <i class="uil uil-facebook-f"></i>
+                        </a>
+
+                        <a href="" target="_blank" class="home__social-icon">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                    </div>
+                    <!----------------- Perfil ------------------>
+                    <div class="home__img">
+                        <div class="home__frame">
+                            <div class="home__frame-img">
+                                <img src="img/hola.png">
+                            </div>
+                        </div>
+						   
+                    </div>
+                    <!----------------- info ------------------>
+                    <div class="home__data">
+                       <h1 class="home__title">Hola! Soy M. Victoria Cabello Molina</h1>
+                       <h3 class="home__subtitle">Frontend developer</h3>
+                       <p class="home__description">Bienvenidos a mi mundo creativo!</p>
+                       <!----------------- boton ------------------>
+                       <a href="#contact" class="button button--flex">
+                            Contacto<i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+                <!----------------- scroll ------------------>
+                <div class="home__scroll">
+                    <a href="#about" class="home__scroll-button button--flex">
+                        <i class="uil uil-mouse-alt home__scroll-mouse"></i>
+                        <span class="home__scroll-name">Scroll down</span>
+                        <i class="uil uil-arrow-down home__scroll-arrow"></i>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!------------------------ Sobre mí ------------------------>
+        <section class="about section" id="about">
+            <h2 class="section__title">Sobre mí</h2>
+            <span class="section__subtitle">Breve Introducción</span>
+            <div class="about__container grid">
+                <img src="img/skill.png" alt="imagen" class="about__img">
+                <div class="about__data">
+                    <p class="about__description">
+                        Estoy cursando una Técnicatura en Desarrollo de Aplicaciones Informaticas y soy diseñadora autodidacta.<br>
+                        Me apasiona la programación y el diseño. <br>
+                        Me gusta ayudar a emprendedores en la creación de sus marcas y me gusta estar en constante expansion de mis conocimientos.
+                    </p>
+                    <div class="about__buttons">
+                        <a download="" href="doc/cv_M_Victoria_Cabello_Molina.pdf" class="button button--flex">Descargar CV
+                            <i class="uil uil-download-alt button__icon"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------------------------ Habilidades ------------------------>
+        <section class="skills section" id="skills">
+            <h2 class="section__title">Habilidades</h2>
+            <span class="section__subtitle">Estas son algunas de las habilidades que aprendí en 
+                el camino tanto en la vida profesional como en la simplemente merodeando por la web.
+            </span>
+
+            <div class="skills__container container grid">
+                <div>
+                    <!----------------- Skill 1 ------------------>
+                    <div class="skills__content skills__open">
+                        <div class="skills__header">
+                            <i class="uil uil-brackets-curly skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Frontend developer</h1>
+                                
+                            </div>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <!----------- Html ------------>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">HTML</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <!----------- % ------------>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__html"></span>
+                                </div>
+                            </div>
+                            <!----------- Css ------------>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">CSS</h3>
+                                    <span class="skills__number">70%</span>
+                                </div>
+                                <!----------- % ------------>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__css"></span>
+                                </div>
+                            </div>
+                            <!----------- Js ------------>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">JavaScript</h3>
+                                    <span class="skills__number">50%</span>
+                                </div>
+                                <!----------- % ------------>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__js"></span>
+                                </div>
+                            </div>
+                            <!----------- Angular ------------>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Angular</h3>
+                                    <span class="skills__number">30%</span>
+                                </div>
+                                <!----------- % ------------>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__angular"></span>
+                                </div>
+                            </div>
+                            <!----------- Vue ------------>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Vue</h3>
+                                    <span class="skills__number">20%</span>
+                                </div>
+                                <!----------- % ------------>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__vue"></span>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <!----------------- Skill 2 ------------------>
+                    <div class="skills__content skills__close">
+                        <div class="skills__header">
+                            <i class="uil uil-server-network skills__icon"></i>
+
+                            <div>
+                                <h1 class="skills__title">Backend developer</h1>
+                        
+                            </div>
+                            <i class="uil uil-angle-down skills__arrow"></i>
+                        </div>
+
+                        <div class="skills__list grid">
+                            <!----------- Php ------------>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">PHP</h3>
+                                    <span class="skills__number">40%</span>
+                                </div>
+                                <!----------- % ------------>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__php"></span>
+                                </div>
+                            </div>
+                            <!----------- Java ------------>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Java</h3>
+                                    <span class="skills__number">60%</span>
+                                </div>
+                                <!----------- % ------------>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__java"></span>
+                                </div>
+                            </div>
+                            <!----------- go ------------>
+                            <div class="skills__data">
+                                <div class="skills__titles">
+                                    <h3 class="skills__name">Go</h3>
+                                    <span class="skills__number">20%</span>
+                                </div>
+                                <!----------- % ------------>
+                                <div class="skills__bar">
+                                    <span class="skills__percentage skills__go"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <!----------------- Skill 3 ------------------>
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-database-alt skills__icon"></i>
+                    
+                                <div>
+                                    <h1 class="skills__title">DataBase</h1>
+                            
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <!-----------MySQL ------------>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">MySql</h3>
+                                        <span class="skills__number">40%</span>
+                                    </div>
+                                    <!----------- % ------------>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__mysql"></span>
+                                    </div>
+                                </div>
+                                <!----------- Postgresql ------------>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Postgresql</h3>
+                                        <span class="skills__number">60%</span>
+                                    </div>
+                                    <!----------- % ------------>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__postgresql"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!----------------- Skill 4 ------------------>
+                        <div class="skills__content skills__close">
+                            <div class="skills__header">
+                                <i class="uil uil-swatchbook skills__icon"></i>
+                    
+                                <div>
+                                    <h1 class="skills__title">Designer</h1>
+                            
+                                </div>
+                                <i class="uil uil-angle-down skills__arrow"></i>
+                            </div>
+
+                            <div class="skills__list grid">
+                                <!----------- Photoshop ------------>
+                                <div class="skills__data">
+                                    <div class="skills__titles">
+                                        <h3 class="skills__name">Photoshop</h3>
+                                        <span class="skills__number">75%</span>
+                                    </div>
+                                    <!----------- % ------------>
+                                    <div class="skills__bar">
+                                        <span class="skills__percentage skills__photoshop"></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </section>
+        <!------------------------ Estudios ------------------------>
+        <section class="formation section">
+            <h2 class="section__title">Educación</h2>
+            <span class="section__subtitle"></span>
+
+            <div class="formation__container container">
+                <div class="formation__tabs">
+                    <div class="formation__button button--flex">
+                        <i class="uil uil-graduation-cap formation__icon">Estudios</i>
+                    </div>
+
+                    <div class="formation__button button--flex">
+                        <i class="uil uil-newspaper formation__icon"></i>
+                        Cursos
+                    </div>
+                </div>
+
+                <div class="formation__section">
+                    <!----------------- Descripcion-Formación2 ------------------>
+                    <div class="formation__content">
+                        <!----------------- Estudio 1 ------------------>
+                        <div class="formation__data">
+                            <div>
+                                <h3 class="formation__title">Tecnicatura Universitaria en Desarrollo de Aplicaciones Informáticas</h3>
+                                <span class="formation__subtitle">Universidad Nacional del Centro</span>
+                                <div class="formation__calendar">
+                                    <i class="uil uil-calendar-alt"></i> 2020-Actualidad
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="formation__rounder"></span>
+                                <span class="formation__line"></span>
+                            </div>
+                        </div>
+
+                        <!----------------- Curso 1 ------------------>
+                        <div class="formation__data">
+                            <div></div>
+
+                            <div>
+                                <span class="formation__rounder"></span>
+                                <span class="formation__line"></span>
+                            </div>
+                            
+                            <div>
+                                <h3 class="formation__title">Data Analytics</h3>
+                                <span class="formation__subtitle">UTEDYC-(Trabajadores de Entidades Deportivas y Cíviles)</span>
+                                <div class="formation__calendar">
+                                    <i class="uil uil-calendar-alt"></i> 2021
+                                </div>
+                            </div>
+                        </div>
+                        <!----------------- Curso 2 ------------------>
+                        <div class="formation__data">
+                            <div></div>
+
+                            <div>
+                                <span class="formation__rounder"></span>
+                                <span class="formation__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="formation__title">Curso Básico de Markenting Digital</h3>
+                                <span class="formation__subtitle">Google Activate</span>
+                                <div class="formation__calendar">
+                                    <i class="uil uil-calendar-alt"></i> 2019
+                                </div>
+                            </div>
+                        </div>
+
+                        <!----------------- Curso 3------------------>
+                        <div class="formation__data">
+                            <div></div>
+
+                            <div>
+                                <span class="formation__rounder"></span>
+                                <span class="formation__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="formation__title">111mil Programadores</h3>
+                                <span class="formation__subtitle">INET</span>
+                                <div class="formation__calendar">
+                                    <i class="uil uil-calendar-alt"></i> 2018
+                                </div>
+                            </div>     
+                        </div>
+
+                        <!----------------- Estudio 2 ------------------>
+                        <div class="formation__data">
+                            <div>
+                                <h3 class="formation__title">Contador Público</h3>
+                                <span class="formation__subtitle">Universidad Nacional de la Plata</span>
+                                <div class="formation__calendar">
+                                    <i class="uil uil-calendar-alt"></i> 2015-2017
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="formation__rounder"></span>
+                                <span class="formation__line"></span>
+                            </div>
+                            
+                        </div>
+                        
+                        <!----------------- Curso 4------------------>
+                        <div class="formation__data">
+                            <div></div>
+
+                            <div>
+                                <span class="formation__rounder"></span>
+                                <span class="formation__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="formation__title">Auxiliar Administrativo </h3>
+                                <span class="formation__subtitle">Centro de Formación Profesional N° 408</span>
+                                <div class="formation__calendar">
+                                    <i class="uil uil-calendar-alt"></i> 2017
+                                </div>
+                            </div>    
+                        </div>
+
+                        <!----------------- Curso 5 ------------------>
+                        <div class="formation__data">
+                            <div></div>
+
+                            <div>
+                                <span class="formation__rounder"></span>
+                                <span class="formation__line"></span>
+                            </div>
+                            <div>
+                                <h3 class="formation__title">Capacitación -Planificación de la Gestión Comercial</h3>
+                                <span class="formation__subtitle">Cámara Argentina de Comercio</span>
+                                <div class="formation__calendar">
+                                    <i class="uil uil-calendar-alt"></i> 2016
+                                </div>
+                            </div>   
+                        </div>
+
+                        <!----------------- Estudio 3------------------>
+                        <div class="formation__data">
+                            <div>
+                                <h3 class="formation__title">Bachiller, modalidad Económia y Gestión de las Organizaciones</h3>
+                                <span class="formation__subtitle">Instituto Inmaculada Concepción</span>
+                                <div class="formation__calendar">
+                                    <i class="uil uil-calendar-alt"></i> 2007-2009
+                                </div>
+                            </div>
+
+                            <div>
+                                <span class="formation__rounder"></span>
+                                <span class="formation__line"></span>
+                            </div>
+                        </div>
+                        <!----------------- Curso 6 ------------------>
+                        <div class="formation__data">
+                            <div> </div>
+
+                            <div>
+                                <span class="formation__rounder"></span>
+                                <span class="formation__line"></span>
+                            </div>
+
+                            <div>
+                                <h3 class="formation__title">Administración y Conducción de RRHH</h3>
+                                <span class="formation__subtitle">Centro de Formación Profesional N°408 </span>
+                                <div class="formation__calendar">
+                                    <i class="uil uil-calendar-alt"></i> 2016
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!----------------- Curso 7 ------------------>
+                        <div class="formation__data">
+                            <div></div>
+
+                            <div>
+                                <span class="formation__rounder"></span>
+                                <span class="formation__line"></span>
+                            </div>
+                            <div>
+                                <h3 class="formation__title">Auxiliar en Administración de Microempresa</h3>
+                                <span class="formation__subtitle">Centro de Formación Profesional N° 408</span>
+                                <div class="formation__calendar">
+                                    <i class="uil uil-calendar-alt"></i> 2016
+                                </div>
+                            </div>
+                        </div>
+                       
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!------------------------ Portfolio ------------------------>
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portfolio</h2>
+            <span class="section__subtitle">Trabajos Recientes</span>
+
+            <div class="portfolio__container container swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <!----------------- Imagen 1 ------------------>
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="img/VYDigital.png" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">VYDigital</h3>
+                            <p class="portfolio__description">Plataforma e-commerce para comprar y vender</p>
+                        </div>
+                    </div>
+                    <!----------------- Imagen 2 ------------------>
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="img/tarjeta_de_presentacion1.jpg" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Tarjetas de Presentación</h3>
+                            <p class="portfolio__description">Diseño de tarjeta de presentación para emprendedores</p>
+                        </div>
+                    </div>
+                    <!----------------- Imagen 3 ------------------>
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="img/presentacion2.jpg" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Tarjetas de Presentación</h3>
+                            <p class="portfolio__description">Diseño de tarjeta de presentación para emprendedores</p>
+                        </div>
+                    </div>
+                    <!----------------- Imagen 4 ------------------>
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="img/logo_redondo.jpg" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Logos</h3>
+                            <p class="portfolio__description">Creación de logos personalizados para emprendedores</p>
+                        </div>
+                    </div>
+                    <!----------------- Imagen 5 ------------------>
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="img/Folleto1.jpg" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Folleteria</h3>
+                            <p class="portfolio__description"></p>
+                        </div>
+                    </div>
+                    <!----------------- Imagen 5 ------------------>
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="img/Folleto2.jpg" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Folleteria</h3>
+                            <p class="portfolio__description"></p>
+                        </div>
+                    </div>
+
+                </div>
+                <!--Add arrows-->
+                <div class="swiper-button-next">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+                 <!--Add pagination-->
+                 <div class="swiper-pagination"></div>
+            </div>
+        </section>
+        <!------------------------ Contacto ------------------------>
+        <section class="contact section" id="contact">
+            <h2 class="section__title">Contacto</h2>
+            <div class="contact__container container grid">
+                <div>
+                    <div class="contact__infomation">
+                        <i class="uil uil-phone contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Teléfono</h3>
+                            <span class="contact__subtitle">(2983)586371</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__infomation">
+                        <i class="uil uil-envelope contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Correo</h3>
+                            <span class="contact__subtitle">mvittoria7@gmail.com</span>
+                        </div>
+                    </div>
+
+                    <div class="contact__infomation">
+                        <i class="uil uil-map-marker contact__icon"></i>
+                        <div>
+                            <h3 class="contact__title">Ubicación</h3>
+                            <span class="contact__subtitle">Adolfo Gonzales Chaves, Buenos Aires</span>
+                        </div>
+                    </div>
+                </div>
+                <form action="" class="contact__form grid">
+                    <div class="contact__inputs grid">
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Nombre</label>
+                            <input type="text" class="contact__input">
+                        </div>
+
+                        <div class="contact__content">
+                            <label for="" class="contact__label">Correo</label>
+                            <input type="email" class="contact__input">
+                        </div>
+                    </div>
+                    <div class="contact__content">
+                        <label for="" class="contact__label">Mensaje</label>
+                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                    </div>
+                    <div>
+                        <a href="#" class="button button--flex">Enviar
+                            <i class="uil uil-message button__icon"></i>
+                        </a>
+                    </div>
+                </form>
+            </div>
+        </section>    
+    </main>
+    <!------------------------ Footer ------------------------>
+    <footer class="footer">
+        <div class="footer__bg">
+            <div class="footer__container container grid">
+                <div>
+                    <h1 class="footer__title">Victoria</h1>
+                    <span class="footer__subtitle">Frontend developer</span>
+                </div>
+                <ul class="footer__links">
+                    <li>
+                        <a href="#about" class="footer__link">Sobre mí</a>
+                    </li>
+
+                    <li>
+                        <a href="#portfolio" class="footer__link">Portfolio</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="footer__link">Contacto</a>
+                    </li>
+                </ul>
+
+                <div class="footer__socials">
+                    <a href="https://1bestlinks.net/pWZZL" target="_blank" class="footer__social">
+                        <i class="uil uil-linkedin social__icon"></i>
+                    </a>
+                    <a href="https://github.com/M-VictoriaCM" target="_blank"  class="footer__social">
+                        <i class="uil uil-github social__icon"></i>
+                    </a>
+                    <a href="" target="_blank" class="footer__social">
+                        <i class="uil uil-facebook-f social__icon"></i>
+                    </a>
+
+                    <a href="" target="_blank" class="footer__social">
+                        <i class="uil uil-instagram social__icon"></i>
+                    </a>
+
+                </div>
+            </div>
+            <p class="footer__copy">&#169;Victoria. All right reserved</p>
+        </div>
+    </footer>
+    <!------------------------ Scroll top ------------------------>
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="uil uil-arrow-up scrollup__icon"></i>
+    </a>
+    <!------------------------ Swiper js ------------------------>
+    <script src="js/swiper-bundle.min.js"></script>
+    <!------------------------ Main js ------------------------>
+    <script src="js/showMenu.js"></script>
+    <script src="js/showSkills.js"></script>
+    <script src="js/portfolioSwiper.js"></script>
+    <script src="js/showScroll.js"></script>
+    <script src="js/darkTheme.js"></script>
+    
+</body>
+</html>
